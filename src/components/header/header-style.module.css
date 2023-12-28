@@ -1,0 +1,29 @@
+.header {
+  width: 50vw;
+  height: auto;
+  border: 2px solid hsl(217, 16%, 45%);
+  border-radius: 15px;
+  padding: 10px 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__score_board {
+  background-color: #fff;
+  color: hsl(229, 25%, 31%);
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.header__score_board h1 {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 600px) {
+  .header {
+    width: 90vw;
+  }
+}
