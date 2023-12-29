@@ -44,7 +44,7 @@ function App() {
     const aiChoice = aiChoose();
     setUserChoice(choice);
     setAiChoice(aiChoice);
-    displayResults([choice, aiChoice]);
+    displayResults();
     displayWinner([choice, aiChoice]);
   };
 
@@ -53,7 +53,7 @@ function App() {
     return CHOICES[rand];
   };
 
-  const displayResults = (results: Choice[]) => {
+  const displayResults = () => {
     setResultsVisible(true);
   };
 

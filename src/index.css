@@ -228,6 +228,7 @@ body {
 }
 
 .results__winner {
+  width: 30vw;
   grid-area: result-winner;
   display: grid;
   place-items: center;
